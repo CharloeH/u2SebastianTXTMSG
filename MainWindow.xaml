@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:u2SebastianTXTMSG"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <StackPanel>
+    <ScrollViewer>
+        <StackPanel>
         <TextBox x:Name="txtInput"
                  Text="TTYL"
                  AcceptsReturn="True"
@@ -15,10 +16,12 @@
         <Button x:Name="btnClick"
                 Click="btnClick_Click"
                 Height="25"
+                Content="Click Me"
                 />
         <Label x:Name="lblOutput"
                Content="output"
                />
 
     </StackPanel>
+    </ScrollViewer>
 </Window>
