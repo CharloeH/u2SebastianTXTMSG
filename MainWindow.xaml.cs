@@ -1,4 +1,10 @@
-﻿using System;
+/*
+Sebastian Horton
+March 26, 2018
+u2SebastianTXTMSG
+Converts a variety of short form "texts" into full words
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
